@@ -1,4 +1,4 @@
-# BeGateway payment system API integration library
+# bePaid payment system API integration library
 
 [![Build Status Master](https://travis-ci.org/begateway/begateway-api-php.svg?branch=master)](https://travis-ci.org/begateway/begateway-api-php)
 
@@ -32,7 +32,7 @@ composer begateway/begateway-api-php
 
 ### Test card numbers
 
-Refer to the documentation https://doc.begateway.com/test-integration#test-card-number for valid test card numbers.
+Refer to the documentation https://docs.bepaid.by/test-integration#test-card-number for valid test card numbers.
 
 ## Getting started
 
@@ -123,7 +123,7 @@ $transaction->customer->setFirstName('John');
 $transaction->customer->setLastName('Doe');
 $transaction->customer->setCountry('LV');
 $transaction->customer->setAddress('Demo str 12');
-$transaction->customer->setCity('Riga');
+$transaction->customer->setCity('Minsk');
 $transaction->customer->setZip('LV-1082');
 $transaction->customer->setIp('127.0.0.1');
 $transaction->customer->setEmail('john@example.com');
@@ -150,7 +150,7 @@ transactions.
 
 ## Documentation
 
-Visit https://doc.begateway.com for up-to-date documentation.
+Visit https://docs.bepaid.by/ for up-to-date documentation.
 
 ## Tests
 
