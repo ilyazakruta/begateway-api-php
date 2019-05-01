@@ -6,7 +6,12 @@
 
 PHP 5.3+
 
+## Install
+
+composer begateway/begateway-api-php
+
 ## Test data
+
 
 ### Shop without 3-D Secure
 
