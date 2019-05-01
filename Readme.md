@@ -8,7 +8,7 @@ PHP 5.3+
 
 ## Install
 
-composer begateway/begateway-api-php
+composer require begateway/begateway-api-php
 
 ## Test data
 
